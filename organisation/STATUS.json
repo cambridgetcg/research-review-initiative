@@ -1,0 +1,55 @@
+{
+  "schema": "research-review-initiative-status/v1",
+  "observed_on": "2026-09-14",
+  "state": "private_first_case_preparation",
+  "repository_container_name": "research-review-initiative",
+  "public_working_name": null,
+  "legal_entity": null,
+  "jurisdiction": null,
+  "responsible_human": null,
+  "corresponding_author": null,
+  "reply_inbox": null,
+  "website": null,
+  "null_meaning": "Not selected, accepted or confirmed in this packet; no appointment or registration is implied.",
+  "governance": {
+    "state": "proposed_not_adopted",
+    "charter": "CHARTER.md",
+    "case_lead": null,
+    "release_editor": null,
+    "non_involved_appeal_reviewer": null,
+    "funding_terms": null
+  },
+  "review_control": {
+    "current_analysis": "Same-controller AI-assisted internal analysis",
+    "external_reviewers": [],
+    "external_independence_established": false,
+    "human_adoption_of_manuscript": false,
+    "institutional_endorsements": []
+  },
+  "first_case": {
+    "state": "internal_draft_packaged_and_verified",
+    "working_title": "A scoped audit of fixed-point identification and origin damping",
+    "source_doi": "10.1371/journal.pone.0319047",
+    "source_title": "Creating a novel algorithm for studying the strong convergence to a sequence with applications",
+    "scope": [
+      "Lemma 3.3: fixed-point identification, possible VI/projection condition and demimetric-to-nonexpansive inference",
+      "Equation 13: the claimed origin-damping inequality",
+      "Equation 9: scalar counterexample under an explicitly qualified normalized-weight interpretation",
+      "Validity and limits of the proposed repair, with predecessor attribution"
+    ],
+    "findings_status": "Internal claims awaiting external source and proof review; not an audit of the entire paper",
+    "frozen_packet_version": "2026-001/v0.1",
+    "intended_submission_route": "Outside technical review first; journal-route query drafted, no outreach approved or sent.",
+    "invitation": "REVIEWER-INVITATION.md",
+    "invitation_state": "unsent_no_recipient_selected",
+    "manifest_sha256": "14be4add8859e63633a5ff50ff82bcd98f43ba5fac66645e3f5d5d0f294b41db"
+  },
+  "correspondence": {
+    "messages_sent": 0,
+    "journal_submission_made": false,
+    "author_contact_made": false,
+    "institutional_contact_made": false
+  },
+  "next_action": "Freeze the scoped technical packet; use the unsent invitation to seek a willing separately controlled functional-analysis reviewer once a real sender and recipient are chosen.",
+  "submission_notes": "SUBMISSION-NOTES.md"
+}
