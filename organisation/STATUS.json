@@ -42,7 +42,15 @@
     "intended_submission_route": "Outside technical review first; journal-route query drafted, no outreach approved or sent.",
     "invitation": "REVIEWER-INVITATION.md",
     "invitation_state": "unsent_no_recipient_selected",
-    "manifest_sha256": "14be4add8859e63633a5ff50ff82bcd98f43ba5fac66645e3f5d5d0f294b41db"
+    "manifest_sha256": "14be4add8859e63633a5ff50ff82bcd98f43ba5fac66645e3f5d5d0f294b41db",
+    "followups": [
+      {
+        "version": "translation-v0.1",
+        "state": "internal_note_verified",
+        "note": "../reports/2026-001-demimetric-audit/followups/translation-v0.1/NOTE.md",
+        "finding": "Coordinate-dependent drift explained; proposed convex candidate preserves translations but fails a separate common-fixed-point test."
+      }
+    ]
   },
   "correspondence": {
     "messages_sent": 0,
@@ -50,6 +58,6 @@
     "author_contact_made": false,
     "institutional_contact_made": false
   },
-  "next_action": "Freeze the scoped technical packet; use the unsent invitation to seek a willing separately controlled functional-analysis reviewer once a real sender and recipient are chosen.",
+  "next_action": "Arrange outside technical review of the frozen packet when a real sender and willing separately controlled reviewer are selected; investigate fixed-point preservation and residual decrease before accepting an algorithm repair.",
   "submission_notes": "SUBMISSION-NOTES.md"
 }

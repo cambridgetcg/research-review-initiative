@@ -23,6 +23,20 @@ The [complete verification packet](reports/2026-001-demimetric-audit/review-2026
 is 202,496 bytes. Its SHA-256 is
 `a6acae284ebbc8d41964f610e0bfb8d80755b320ef850ba8f9dbdc32dc4ba697`.
 
+## Coordinate follow-up
+
+The [translation note](reports/2026-001-demimetric-audit/followups/translation-v0.1/NOTE.md)
+and [three-page reading copy](reports/2026-001-demimetric-audit/followups/translation-v0.1/NOTE.pdf)
+explain why changing coordinate zero changes the origin-damped algorithm's
+physical answer in a simple case. A proposed convex update removes that bias,
+but a further counterexample shows it can still select the wrong solution.
+The candidate remains unaccepted as a general repair.
+
+The separate follow-up includes an exact rational checker, stored results,
+an SVG figure and internal review. Its `verify_packet.py` checks the file
+inventory and hashes; reproduction instructions are in the note. The original
+review packet and archive remain unchanged.
+
 ## Organisation
 
 The [proposed charter](organisation/CHARTER.md) sets out scope, control, funding,
