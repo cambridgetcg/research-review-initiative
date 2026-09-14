@@ -71,8 +71,26 @@ local contribution history and dependencies. The journal can retain a claim,
 concern, repair and conflicting assessments without erasing earlier records.
 It currently checks hash consistency, not scientific truth, verified identity
 or independent timestamps. This initiative needs no new chain module, token,
-reward scheme, service or runtime dependency. No claim or assessment in this
-repository has been submitted on-chain.
+reward scheme, service or runtime dependency.
+
+The [first public research checkpoint](https://zerone.ai/research/checkpoints/)
+preserves the original 81-record journal and exact copies of all three research
+packets. A 501-byte signed bank self-send commits to that journal on `zerone-dev-1`
+at height **183706**, transaction
+`8DFC740C5326E76B482B6D370F527311CB518934D6B64A4BF5EFDBD2806D0B8E`.
+The saved proof verifies the account signature, transaction inclusion and the
+original development validator signature; linked height 183707 binds successful
+execution, data and gas. The net cost was the advertised `2000000uzrn` development
+fee. These funds have no promised value.
+
+The chain holds the journal's digest commitment; the full records and proofs are
+downloadable separately. This is a single-operator development storage trial,
+not a native scientific Fact, timed review round, independent endorsement or
+historical-authorship proof. Earlier failed candidates remain in the journal.
+One original internal receipt contained private paths; its public sanitized
+derivative is explicitly distinguished by hash in the evidence index.
+Organisation drafts, private correspondence and source-paper PDFs remain outside
+the public packet. This repository remains private.
 
 ## Working records
 

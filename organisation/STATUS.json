@@ -1,7 +1,7 @@
 {
   "schema": "research-review-initiative-status/v1",
   "observed_on": "2026-09-14",
-  "state": "private_first_case_preparation",
+  "state": "private_organisation_preparation_with_public_research_checkpoint",
   "repository_container_name": "research-review-initiative",
   "public_working_name": null,
   "legal_entity": null,
@@ -66,5 +66,26 @@
     "institutional_contact_made": false
   },
   "next_action": "Seek outside technical review of the original audit and restricted replacement theorem when a real sender and willing separately controlled reviewer are selected. Preserve prior counterexamples and distinguish the replacement assumptions from the source statement.",
-  "submission_notes": "SUBMISSION-NOTES.md"
+  "submission_notes": "SUBMISSION-NOTES.md",
+  "records_storage": {
+    "state": "checkpoint_committed_verified_and_published",
+    "publication_url": "https://zerone.ai/research/checkpoints/",
+    "public_material": "Exact 81-entry journal, three unchanged authored research packets, evidence availability index and saved chain proofs",
+    "chain_id": "zerone-dev-1",
+    "entry_count": 81,
+    "height": "183706",
+    "txhash": "8DFC740C5326E76B482B6D370F527311CB518934D6B64A4BF5EFDBD2806D0B8E",
+    "export_sha256": "86c8163599c0098aa43b4f3599a81b02a03557553fc595b67b026fdfe108704e",
+    "head_sha256": "23baf5b0a2e7f4a48fe2b86775ae2ef92e607f2d793270ff10219e61d2563847",
+    "execution_proof": "Code 0, data and gas bound to linked signed height 183707; no event or account-state proof",
+    "fee_uzrn": "2000000",
+    "native_fact_created": false,
+    "timed_scientific_review_opened": false,
+    "independent_scientific_review": false,
+    "trust_model": "Original single-operator development validator key; no independent custody or trustworthy wall-clock assertion",
+    "availability_scope": "Full records remain external and require replication. Original internal receipt with private paths is represented only by its explicitly identified sanitized derivative.",
+    "publication_source_commit": "f5113706a9a8a3643aa8e48ed34fc7f778af926a",
+    "publication_deployment": "https://13aec654.zerone-ai.pages.dev",
+    "publication_check": "70 live files match the clean merged build byte-for-byte at both zerone.ai and the immutable Pages deployment; desktop/mobile journal import and frozen report CSP checks passed."
+  }
 }
