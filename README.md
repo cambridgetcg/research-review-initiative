@@ -37,6 +37,20 @@ an SVG figure and internal review. Its `verify_packet.py` checks the file
 inventory and hashes; reproduction instructions are in the note. The original
 review packet and archive remain unchanged.
 
+## Restricted repair
+
+The [restricted theorem](reports/2026-001-demimetric-audit/followups/restricted-repair-v0.1/NOTE.md)
+and [four-page reading copy](reports/2026-001-demimetric-audit/followups/restricted-repair-v0.1/NOTE.pdf)
+state sufficient assumptions under which the composite preserves exactly the
+common solution set and the declared iteration converges in norm. The proof
+handles small inertial input errors without assuming that the original maps
+are pairwise nonexpansive. It also explains when the relaxation boundary is
+admissible and retains the earlier counterexamples outside these conditions.
+
+The packet includes exact finite checks, primary-source attribution and
+internal review. This is a conditional replacement result awaiting outside
+review; it does not validate the original article or establish novelty.
+
 ## Organisation
 
 The [proposed charter](organisation/CHARTER.md) sets out scope, control, funding,

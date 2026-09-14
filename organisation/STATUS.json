@@ -49,6 +49,13 @@
         "state": "internal_note_verified",
         "note": "../reports/2026-001-demimetric-audit/followups/translation-v0.1/NOTE.md",
         "finding": "Coordinate-dependent drift explained; proposed convex candidate preserves translations but fails a separate common-fixed-point test."
+      },
+      {
+        "version": "restricted-repair-v0.1",
+        "state": "internal_theorem_and_checks_verified",
+        "note": "../reports/2026-001-demimetric-audit/followups/restricted-repair-v0.1/NOTE.md",
+        "finding": "Explicit sufficient conditions give the intended common fixed-point set and strong convergence for the declared perturbed convex iteration; established viscosity antecedents attributed.",
+        "scope": "Internal mathematical proof and exact finite corroboration; external review pending, no novelty or original-theorem validation."
       }
     ]
   },
@@ -58,6 +65,6 @@
     "author_contact_made": false,
     "institutional_contact_made": false
   },
-  "next_action": "Arrange outside technical review of the frozen packet when a real sender and willing separately controlled reviewer are selected; investigate fixed-point preservation and residual decrease before accepting an algorithm repair.",
+  "next_action": "Seek outside technical review of the original audit and restricted replacement theorem when a real sender and willing separately controlled reviewer are selected. Preserve prior counterexamples and distinguish the replacement assumptions from the source statement.",
   "submission_notes": "SUBMISSION-NOTES.md"
 }
